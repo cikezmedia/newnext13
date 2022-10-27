@@ -12,9 +12,7 @@ Note that NextJS 13 is still experimental.
 
 ## Observation(s)
 
-I noticed that adding loading page to app folder works as supposed the on the first page load but subsequent times will cause the page to keep loading for a very long time and you need to restart your server before you can view your page.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+When I added the loading.js to app folder, everything worked as supposed on the first page load but subsequent times will cause the page to keep loading for a very long time and you need to restart your server before you can view your page.
 
 ## Demo Link
 

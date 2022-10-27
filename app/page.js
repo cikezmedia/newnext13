@@ -15,7 +15,7 @@ export default function Home() {
           Posts With NextJS 13
         </h1>
         <div className='grid grid-cols-1  lg:grid-cols-3 mx-auto items-center border-2 border-black p-4 rounded-lg gap-4'>
-          {posts.map((post: any) => (
+          {posts.map((post) => (
             <div
               className='flex flex-col border-2 border-blue-500 rounded-lg p-4 bg-gray-100'
               key={post.id}
